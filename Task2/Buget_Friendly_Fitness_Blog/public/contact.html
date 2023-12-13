@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget-Friendly Fitness Blog - Contact</title>
+    <link rel="stylesheet" href="blog_styles2_for_slides.css">
+    <!-- Include Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+
+    <header>
+        <h1>Budget-Friendly Fitness Blog</h1>
+        <nav>
+            <ul>
+                <button><li><a href="blog_index.html"><b> Home</b></a></li></button>  
+                 <button><li><a href="about.html"><b>About</b></a></li></button>  
+                 <button><li><a href="posts.html"><b>Posts</b></a></li></button>  
+                 <button><li><a href="contact.html"><b>Contact</b></a></li></button>  
+               </ul>
+        </nav>
+    </header>
+
+    <div id="slider">
+        <!-- Slide for Contact -->
+        <br class="swiper-slide" data-slide="contact">
+            <!-- Include the contact component -->
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out to us for any questions or collaborations.</p>
+            </section>
+        
+        
+    </div>
+    <div class="container">
+        
+        
+
+        <form action="/blogContactMsg" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- Include Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        // Initialize Swiper
+        var swiper = new Swiper('#slider', {
+            // Configuration options
+        });
+    </script>
+
+</body>
+
+</html>

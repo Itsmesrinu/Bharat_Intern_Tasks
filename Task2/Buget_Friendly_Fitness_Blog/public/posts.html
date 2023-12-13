@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget-Friendly Fitness Blog - Posts</title>
+    <link rel="stylesheet" href="blog_styles2_for_slides.css">
+    <!-- Include Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Budget-Friendly Fitness Blog</h1>
+        <nav>
+            <ul>
+                <button><li><a href="blog_index.html"><b> Home</b></a></li></button>  
+                 <button><li><a href="about.html"><b>About</b></a></li></button>  
+                 <button><li><a href="posts.html"><b>Posts</b></a></li></button>  
+                 <button><li><a href="contact.html"><b>Contact</b></a></li></button>  
+               </ul>
+        </nav>
+    </header>
+
+    <div id="slider">
+        <!-- Slide for Posts -->
+        <div class="swiper-slide" data-slide="posts">
+            <!-- Include the posts component -->
+            <section id="posts">
+                <h2>Latest Posts</h2>
+
+                
+
+            <article itemscope itemtype="https://schema.org/BlogPosting" class="Post1">
+                <h3 itemprop="headline">How to Create a Budget-Friendly Home Gym</h3>
+                <p itemprop="description"> <b>Setting up a home gym doesn't have to break the bank. Learn how to create an affordable workout space
+                    at home.</b></p>
+                <a href="https://www.lelaburris.com/small-home-gym-budget/"><button type="submit"><b>Read More </b></button></a>
+                <meta itemprop="datePublished" content="2023-01-02">
+                <meta itemprop="author" content="Your Name">
+            </article>
+
+            <article itemscope itemtype="https://schema.org/BlogPosting" class="Post2">
+                <h3 itemprop="headline">Healthy Eating on a Budget</h3>
+                <p itemprop="description"><b>Explore budget-friendly meal ideas that align with your fitness goals. Eating healthy doesn't have to
+                    be expensive.</b></p>
+                <a href="https://www.healthline.com/nutrition/healthy-eating-on-a-budget"><button type="submit"><b>Read More </b></button></a>
+                <meta itemprop="datePublished" content="2023-01-03">
+                <meta itemprop="author" content="Your Name">
+            </article>
+        
+        </section>
+        </div>
+        <!-- Add other slides as needed -->
+    </div>
+
+    <!-- Include Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        // Initialize Swiper
+        var swiper = new Swiper('#slider', {
+            // Configuration options
+        });
+    </script>
+
+</body>
+
+</html>

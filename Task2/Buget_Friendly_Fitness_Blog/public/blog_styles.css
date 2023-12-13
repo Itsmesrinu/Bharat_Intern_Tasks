@@ -1,0 +1,299 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in box model */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #000;
+    background-color: #f8f8f8; /* Light background color */
+}
+
+/* Apply a responsive font size */
+body {
+    font-size: 16px;
+}
+
+/* Responsive Design using Flexbox */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: url('plainblack_bg6.avif') center/cover no-repeat;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+    color: #007bff; /* Set the default color for links */
+    text-decoration: none; /* Remove underlines from links */
+    transition: color 0.3s ease; 
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    
+}
+
+nav ul {
+    a{
+        color: #00d9ff  ;
+        
+        text-decoration: none; /* Remove underlines from links */
+        transition: color 0.7s ease;
+        -webkit-text-stroke: 0.5px black;
+        -moz-text-stroke: 0.5px black;
+        filter: drop-shadow(0 0 0 #007bff);
+        font-weight: 800;
+        font-size: 18px;
+        
+    }
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #007bff; /* Set the default color for links */
+    text-decoration: none; /* Remove underlines from links */
+    transition: color 0.3s ease; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #f8f8f8;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+.home {
+    p{
+        color: #fff;
+    }
+    margin-bottom: 30px;
+    background: url('plainblack_bg6.avif') center/cover no-repeat;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}   
+.about {
+    p{
+        color: #fff;
+    }
+    margin-bottom: 30px;
+    background: url('plainblack_bg6.avif') center/cover no-repeat;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box
+}
+
+
+.Post1 {
+    h3{
+        color: rgb(16, 3, 3);
+    }
+    p{
+        color: #007bff;;
+    }
+    button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color: #004080;
+    }
+    margin-bottom: 30px;
+    background: url('home_gym3.jpeg') ;
+    background-position: 20% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 20px;  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a card-like effect */
+}
+
+.Post2 {
+    h3{
+        color: rgb(16, 3, 3);
+    }
+    p{
+        color: #007bff;;
+    }
+    button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color: #004080;
+    }
+    
+    margin-bottom: 30px;
+    background : url('banana_fitness.avif') center/cover no-repeat;  
+    color: #151414;   
+    padding: 20px;  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a card-like effect */
+}
+
+
+
+/* Responsive Design using CSS Grid */
+#posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.contact { 
+    h3{
+        color: #f8f8f8;
+    }
+    button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color: #004080;
+    }
+}
+/* Dark Mode Support */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Customizable Design */
+body {
+    --primary-color: #007bff;
+    --secondary-color: #4caf50; /* Change secondary color for customization */
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+p{ color: #000
+
+}
+
+/* Content-First Approach */
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+/* Your existing CSS styles go here */
+
+footer {
+    background-color: #333;
+    p{color: #007bff;}
+    padding: 20px 0;
+    text-align: center; /* Center align content in the footer */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto; /* Center align the container within the footer */
+}
+s
+/* Responsive Design Media Query */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Style adjustments for small smartphones */
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav {
+      margin-top: 10px;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* Style adjustments for medium tablets */
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav {
+      margin-top: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Style adjustments for large tablets */
+    header {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    nav {
+      margin-top: 0px;
+    }
+  }
+  @media (min-width: 1200px) {
+    /* Style adjustments for desktop displays */
+    header {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    nav {
+      margin-top: 0px;
+    }
+  }
+       
+
+/* Additional Styling for Dark Mode Toggle or Theme Personalization */
+.dark-mode-toggle {
+    cursor: pointer;
+}
+
+/* Additional Customization Options */
+/* Add more styles for customizable themes, fonts, etc. */

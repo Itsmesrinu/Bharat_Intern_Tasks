@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget-Friendly Fitness Blog - About</title>
+    <link rel="stylesheet" href="blog_styles2_for_slides.css">
+    <!-- Include Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Budget-Friendly Fitness Blog</h1>
+        <nav>
+            <ul>
+             <button><li><a href="blog_index.html"><b> Home</b></a></li></button>  
+              <button><li><a href="about.html"><b>About</b></a></li></button>  
+              <button><li><a href="posts.html"><b>Posts</b></a></li></button>  
+              <button><li><a href="contact.html"><b>Contact</b></a></li></button>  
+            </ul>
+        </nav>
+    </header>
+
+    <div id="slider">
+        <!-- Slide for About -->
+        <div class="swiper-slide" data-slide="about">
+            <!-- Include the about component -->
+            <section id="about">
+                <h2>About Us</h2>
+                <p>We are passionate about making fitness accessible to everyone, regardless of budget constraints.</p>
+                <p>Learn more about our mission and passion for promoting affordable fitness.</p>
+            </section>
+        </div>
+        <!-- Add other slides as needed -->
+    </div>
+
+    <!-- Include Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        // Initialize Swiper
+        var swiper = new Swiper('#slider', {
+            // Configuration options
+        });
+    </script>
+
+</body>
+
+</html>

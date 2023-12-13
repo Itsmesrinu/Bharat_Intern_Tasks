@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Money Tracker App</title>
+</head>
+<body>
+    <header>
+        <h1>Money Tracker App</h1>
+    </header>
+
+    <section class="input-section">
+        <label for="category">Category:</label>
+        <select id="category">
+            <option value="Food & Beverage">Food & Beverage</option>
+            <option value="Rent">Rent</option>
+            <option value="Transport">Transport</option>
+            <option value="Relaxing">Relaxing</option>
+        </select>
+
+        <label for="amount-input">Amount:</label>
+        <input type="number" id="amount-input">
+
+        <label for="date-input">Date:</label>
+        <input type="date" id="date-input">
+
+        <label for="time-input">Time:</label>
+        <input type="time" id="time-input">
+
+        <button id="add-btn"> <b>Add</b></button>
+        <button id="delete-btn"> <b>Delete</b></button>
+    </section>
+
+    <section class="expenses-list">
+        <h2>Expenses List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="expense-table-body"></tbody>
+            
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td id="total-amount"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="expense-history">
+        <button id="view-history-btn">View Expense History</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

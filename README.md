@@ -76,4 +76,12 @@ I am incredibly grateful for the opportunity to learn and grow through the Bhara
 ## Task 3: Money Tracker WebApp
 **Video Link:** [Watch on LinkedIn](https://www.linkedin.com/posts/sreenivasuluchowdam_bharatintern-fullstackdeveloper-bharatintern-activity-7140727371707367424-PITT?utm_source=share&utm_medium=member_desktop)
 ## Implementation Outputs 
-![alt text](<Screenshot 2024-10-05 104947.png>) ![alt text](<Screenshot 2024-10-05 105005.png>) ![alt text](<Screenshot 2024-10-05 105216.png>) ![alt text](<Screenshot 2024-10-05 105300.png>) ![alt text](<Screenshot 2024-10-05 105315.png>) ![alt text](<Screenshot 2024-10-05 105332.png>) ![alt text](<Screenshot 2024-10-05 105408.png>) ![alt text](<Screenshot 2024-10-05 104733.png>) ![alt text](<Screenshot 2024-10-05 104755.png>) ![alt text](<Screenshot 2024-10-05 104928.png>)
+![Screenshot 2024-10-05 105005](https://github.com/user-attachments/assets/c2c63764-0fbc-494b-a9c9-521e4127f744)
+
+![Screenshot 2024-10-05 104928](https://github.com/user-attachments/assets/418c84aa-62b3-44b6-93c6-6eefccc9d9d7)
+![Screenshot 2024-10-05 104947](https://github.com/user-attachments/assets/1357da33-73a9-4bf0-a0ee-b2d21edc93ec)
+![Screenshot 2024-10-05 105216](https://github.com/user-attachments/assets/43d9ec15-3bc4-4f1a-b067-1f959b949fba)
+![Screenshot 2024-10-05 105315](https://github.com/user-attachments/assets/bd8f3dfe-6eb4-4ac8-9484-cc2107ddd6e4)
+![Screenshot 2024-10-05 105332](https://github.com/user-attachments/assets/cac42250-1182-4e37-bf14-bc4c6c9e368a)
+
+![Screenshot 2024-10-05 105300](https://github.com/user-attachments/assets/6f71f93b-ff24-466d-bde0-bb9e75f5c063)
